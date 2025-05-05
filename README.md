@@ -7,17 +7,17 @@ Um **chat interativo para fãs da FURIA**, com integração futura a um sistema 
 
 ## 📚 Sumário
 
-- [📌 Visão Geral](#-visão-geral)
-- [🧠 RAG: Retrieval-Augmented Generation](#-rag-retrieval-augmented-generation)
-- [🧱 Arquitetura do Projeto](#-arquitetura-do-projeto)
-- [🚀 Como Executar o Projeto](#-como-executar-o-projeto)
-  - [▶️ Backend (Flask)](#️-backend-flask)
-  - [▶️ Frontend (React + Vite)](#️-frontend-react--vite)
-  - [💬 Acessar o Chat](#-acessar-o-chat)
-- [🔌 Detalhes da API](#-detalhes-da-api)
-- [📅 Roadmap](#-roadmap)
-- [🤝 Contribuição](#-contribuição)
-- [🛡️ Licença](#️-licença)
+- [📌 Visão Geral](#visão-geral)
+- [🧠 RAG: Retrieval-Augmented Generation](#rag-retrieval-augmented-generation)
+- [🧱 Arquitetura do Projeto](#arquitetura-do-projeto)
+- [🚀 Como Executar o Projeto](#como-executar-o-projeto)
+  - [▶️ Backend (Flask)](#backend-flask)
+  - [▶️ Frontend (React--vite)](#frontend-react--vite)
+  - [💬 Acessar o Chat](#acessar-o-chat)
+- [🔌 Detalhes da API](#detalhes-da-api)
+- [📚 Roadmap](#roadmap)
+- [🤝 Contribuição](#contribuição)
+- [🛡️ Licença](#licença)
 
 ---
 
@@ -60,7 +60,7 @@ O projeto integrará a abordagem RAG (Retrieval-Augmented Generation) por meio d
 
 ---
 
-### ▶️ Iniciar o Backend (Flask)
+### ▶️ Backend (Flask)
 
 ```bash
 # Navegue até o diretório do backend
@@ -81,7 +81,7 @@ python src/main.py
 
 ---
 
-### ▶️ Iniciar o Frontend (React + Vite)
+### ▶️ Frontend (React + Vite)
 
 ```bash
 # Navegue até o diretório do frontend
