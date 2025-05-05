@@ -9,12 +9,23 @@ Um **chat interativo para fãs da FURIA**, com integração futura a um sistema 
 
 Este projeto tem como objetivo criar uma aplicação de chat interativa dedicada à comunidade da FURIA, utilizando inteligência artificial para responder perguntas sobre a organização, seus jogadores, história, conquistas e muito mais.
 
+Abaixo segue o fluxograma de processos (diagrama de atividades) definido para a aplicação.
+
+![Fluxograma de Processos](assets/fluxograma-processos.png)
+
+O projeto integrará a abordagem RAG (Retrieval-Augmented Generation) por meio da conexão com um modelo de linguagem de grande escala (LLM). Essa integração permitirá a recuperação de informações contextuais relevantes sobre a FURIA a partir de uma base vetorizada, fornecendo ao modelo dados precisos para gerar respostas mais coerentes, contextualizadas e assertivas. A seguir, apresenta-se uma representação visual deste fluxo de arquitetura:
+
+
+![RAG - Retrieved Augumented Generation](assets/fluxo-rag.avif)
+
 ### 🔧 Arquitetura
 
 - **Frontend**: Aplicação React (`furia-chat-app`), modificada para se comunicar com a API do backend.
 - **Backend**: Aplicação Flask (`furia_backend`) que expõe uma API REST.
 - **IA (placeholder)**: Implementação inicial de uma função `get_rag_response` que simula uma resposta gerada por IA.  
   > Esta função será substituída futuramente por uma integração real com o **Langchain** e uma base de conhecimento sobre a FURIA.
+
+  ![Arquitetura do Projeto](assets/arquitetura.png)
 
 ---
 
